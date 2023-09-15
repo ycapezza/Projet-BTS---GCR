@@ -1,0 +1,22 @@
+<html>
+    <body>
+
+		<h1> Praticiens </h1>
+		<form id="formListeRecherche">
+			<select id="lstPrat" class="titre" > 
+    
+				<option>Choisissez un praticien</option>
+                                <option value="<?php echo $ligne['PRA_NOM']; ?>">
+                                <?php echo $ligne['PRA_NOM']; ?> 
+                                </option>
+           
+			</select>	
+		</form>
+		<form id="formPraticien">
+                    <label> Praticiens :
+                    <input type="submit" name="btnPraticiens" id="btnPraticiens" value="OK" tabindex="20" />
+                    </label>
+		</form>
+
+</body>
+</html>

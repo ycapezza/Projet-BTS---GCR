@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    color: #5599EE;
+}
+div#haut{
+    margin: 2px 2px 2px 2px;
+    height:6%;
+}
+div#gauche{
+    float:left;
+    width:18%; 
+    background-color: white; 
+    height:100%;
+}
+div#droite{  
+    float:left;
+    width:80%;
+    background-color: #5599EE;
+}
+div#bas{
+    margin : 10px 2px 2px 2px;
+    clear:left;
+    background-color: #77AADD;
+    color: white;
+    height: 88%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+label.titre{
+    display:inline-block;
+    margin: 15px;
+    width: 180;
+    clear: left;
+    float: left;
+}
+.zone { 
+    width: 30car; 
+    float: left; 
+    color:7091BB 
+} 
+#formMedicament {
+    padding-top: 10px;
+}
+#formPraticien, #formMedicament {
+    padding-left: 20px;
+}
+#formPraticien label, #formMedicament label {
+    display: inline-block;
+    width: 20%;
+}
+#formPraticien input, #formMedicament input, #formMedicament textarea {
+    margin-top: 10px;
+}
+#formMedicament label, textarea, #formMedicament label, input {
+    display: inline-block;
+    vertical-align: middle;
+}
+#formMedicament label, input {
+    margin-bottom: 35px;  
+    vertical-align: baseline;
+}
+#infosUtil {
+    font-family: veranda, sans-serif;
+    font-size: 0.8em;
+    width: 95%;
+    background-color: wheat;
+}
+
+
+
